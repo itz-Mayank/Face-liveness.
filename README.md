@@ -79,5 +79,3 @@ The network is trained with **10** epochs size with batch size **32**
 The ratio of training to testing bifuracation is **75:25**
 
 
-### How to use application in real time.
-
