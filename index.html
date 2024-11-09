@@ -39,7 +39,9 @@
                 or cryptography and support scalable, high-volume transactions for population-wide use.
             </p>
             <div class="button-container">
-                <a href="Face-Liveness-Detection\app.py" class="start-button">Start</a>
+                <a href="http://127.0.0.1:5000" class="start-button">Start</a>
+
+
             </div>            
         </div>
     </main>
@@ -50,3 +52,15 @@
     </footer>
 </body>
 </html>
+
+<script>
+    function confirmStart() {
+        var userConfirmed = confirm("Do you want to start the process?");
+        if (userConfirmed) {
+            window.location.href = "{{ url_for('start') }}";
+        } else {
+            alert("You canceled the process.");
+        }
+    }
+</script>
+
