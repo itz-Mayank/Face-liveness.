@@ -45,12 +45,3 @@ The ratio of training to testing bifuracation is **75:25**
 
 ### How to use application in real time.
 
-
-```
-git clone https://github.com/anand498/Face-Liveness-Detection.git
-pip install -r requirements.txt
-python main.py
-```
-And you're good to go!
-
-Don't forget to  :star:    the repo if I made your life easier with this. :wink:
